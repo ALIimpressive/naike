@@ -32,7 +32,7 @@ const Header = ({ dark }) => {
               Find a Store
             </a>
             <div className="s"></div>
-            <a href="">Help</a>
+            <a href="">Helps</a>
             <div className="s"></div>
             <a href="">Join Us</a>
             <div className="s"></div>
