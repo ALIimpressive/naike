@@ -1,0 +1,11 @@
+.admin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2pc;
+    padding: 60px;
+}
+.admin input {
+    width: 450px;
+}

@@ -1,0 +1,42 @@
+#header{
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.hed-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .hed-text a {
+    padding: 10px;
+  }
+
+  .s{
+    background-color: black;
+    height: 13px;
+    width: 1.5px;
+  }
+
+  .hed-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1pc;
+  }
+
+  .hed-img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  

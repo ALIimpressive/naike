@@ -1,0 +1,45 @@
+.sero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 10px;
+    z-index: 99;
+}
+
+.sero-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+    gap: 20px;
+    margin:25px;
+}
+
+.sero-btn button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.sero-btn select {
+border: none;
+outline: none;
+background: none;
+}
+.sas {
+    position: sticky;
+    top: 1px;
+    background-color: #fff;
+}
+
+#sero {
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}

@@ -1,0 +1,167 @@
+.nik img {
+  width: 70px;
+  height: 22px;
+}
+.new-featured:hover{
+  .bg{
+    z-index: 5;
+  }
+}
+
+.bg{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(104, 102, 102, 0.278);
+  z-index: -100;
+}
+
+
+#sero{
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+ 
+#hero{
+  background-color: white;
+  // position: sticky;
+  // top: 10px;
+  // z-index: 11;
+  // border-bottom: 2px solid black;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.her-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.her-text h4 {
+  padding:10px 20px;
+  font-size: 18px;
+}
+
+
+.her-ser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.for {
+  padding: 20px;
+}
+
+.her-ser input {
+  padding-left: 30px;
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.her-ser button {
+  background: #fff;
+  border: none;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  left: 1070px;
+}
+
+/* To hide the checkbox */
+#checkboxInput {
+  display: none;
+} 
+
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(82, 82, 82);
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.toggleSwitch::after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  left: 5px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.26);
+  border: 5px solid white;
+}
+
+#checkboxInput:checked + .toggleSwitch::after {
+  transform: translateX(100%);
+  transition-duration: 0.2s;
+  background-color: white;
+}
+/* Switch background change */
+#checkboxInput:checked + .toggleSwitch {
+  background-color: rgb(148, 118, 255);
+  transition-duration: 0.2s;
+}
+/* sas */
+.newReatured{
+  top: 1;
+  transition: .5s;
+  width: 100%;
+  height: 400px;
+  background: #fff;
+  z-index: 1;
+  position: absolute;
+  animation: block 1s;
+  margin-top: -10px;  
+}
+// .blur{
+//   height: 100%;
+//   filter: blur(10px);
+//   z-index: 10;
+// }
+// @keyframes block {
+//   0%{
+//     /* transform: scale(0); */
+//     transform: translateY(-500px);
+//   }
+//   50%{
+//     transform: translateY(0);
+//   }
+// }
+.newReatured a {
+  color: #000;
+}
+
+.reat {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+.reat a {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}

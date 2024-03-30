@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Admin from "./Admin/Admin";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Main from "./Main";
+import '../src/components/style/Hero.scss'
 
 function App() {
+  console.log(
+    IF()
+  );
+    function IF(){
+      if(5 !== 3 && 5 !== 4 ){
+        console.log(true);
+      }else{
+        console.log(false);
+      }
+      // && => false
+      // || => true
+      // !==
+      // ? :
+      // 5 === 5 ? 'true' : 'false'
+      // 5 + 5
+      // +5
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{
+      }} className="App">
+      <Header/>
+
+      <Routes>
+        <Route path="/" element={<Main />}/>
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
     </div>
   );
 }

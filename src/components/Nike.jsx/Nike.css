@@ -1,0 +1,48 @@
+.blockk {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nike {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1pc;
+    margin: 5px 0 0 0 ;
+
+}
+
+.nike img {
+    width: 320px;
+
+}
+
+
+/* 
+.must {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    padding:0 80px 80px 0;
+    margin: 10px 0 0 0;
+} */
+.reals1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    padding:0 80px 80px 0;
+    margin: 10px 0 0 0;
+}
+
+.s1 {
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin: 15px;
+}
