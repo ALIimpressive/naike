@@ -13,7 +13,7 @@ const Admin = () => {
         <div id='admin'>
             <div className="container">
                 <div className="admin">
-                    <h1>Nike</h1>
+                    <h1>Nikes</h1>
                 <TextField onChange={(e) => setName(e.target.value)} id="filled-basic" label="Name Boot" variant="filled" />
                 <TextField onChange={(e) => setImage(e.target.value)} id="filled-basic" label="IMG url" variant="filled" />
                 <TextField onChange={(e) => setPtice(e.target.value)} id="filled-basic" label="For Whom" variant="filled" />
